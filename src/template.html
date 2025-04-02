@@ -1,20 +1,65 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-</head>
-<body>
-  <header>
-    <nav>
-      <h1>Template</h1>
-    </nav>
-  </header>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <h1>Template</h1>
+        <button id="hideBtn">
+          Dropdown
+          <div class="hideMe">
+            <ul>
+              <li>Home</li>
+              <li>About Us</li>
+              <li>Home</li>
+              <li>About Us</li>
+              <li>Home</li>
+              <li>About Us</li>
+              <li>Home</li>
+              <li>About Us</li>
+            </ul>
+          </div>
+        </button>
+      </nav>
+    </header>
 
-  <div id="content">
-  </div>
+    <div id="content">
+      <button class="arrow1 arr"></button>
+      <div id="frame">
+        <div id="wide">
+          <div class="slide" id="1">
+            <img src="./img/1.jpg" alt="" />
+          </div>
 
-  
-</body>
+          <div class="slide" id="2">
+            <img src="./img/2.jpg" alt="" />
+          </div>
+
+          <div class="slide" id="3">
+            <img src="./img/3.jpg" alt="" />
+          </div>
+
+          <div class="slide" id="4">
+            <img src="./img/4.jpg" alt="" />
+          </div>
+
+          <div class="slide" id="5">
+            <img src="./img/5.jpg" alt="" />
+          </div>
+        </div>
+      </div>
+      <button class="arrow2 arr"></button>
+      <div id="dots">
+        <button data-index="0" class="dot"></button>
+        <button data-index="1" class="dot"></button>
+        <button data-index="2" class="dot"></button>
+        <button data-index="3" class="dot"></button>
+        <button data-index="4" class="dot"></button>
+      </div>
+    </div>
+  </body>
 </html>
